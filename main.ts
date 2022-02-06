@@ -1,0 +1,21 @@
+input.onButtonPressed(Button.A, function () {
+    basic.showString("C")
+    music.playMelody("C - - - - - - - ", 120)
+    basic.showString("D")
+    music.playMelody("- D - - - - - - ", 120)
+    basic.showString("E")
+    music.playMelody("- - E - - - - - ", 120)
+    basic.showString("F")
+    music.playMelody("- - - F - - - - ", 120)
+    basic.showString("G")
+    music.playMelody("- - - - G - - - ", 120)
+    basic.showString("A")
+    music.playMelody("- - - - - A - - ", 120)
+    basic.showString("B")
+    music.playMelody("- - - - - - B - ", 120)
+    basic.showString("C")
+    music.playMelody("- - - - - - - C5 ", 120)
+})
+basic.forever(function () {
+	
+})
